@@ -1,0 +1,117 @@
+{
+	"name": "Toxin Domain",
+	"subclassFeatures": [
+		[{
+			"name": "Toxin Domain",
+			"entries": [
+				"You have entered the service of one of the gods of poisoning, venom, and intoxication. These gods, which include Lolth, Dionysus, Talona, and Their, value a variety of ideals, but all share a love of substances that twist the senses and damage the body. The burning pains of venom, the dulled joy of drunkenness, and the potent sting of a spider or snakebite all fall under this domain, as do the gleam of fluid applied to an assassin's dagger or the bubbling of a hag's brew.",
+				"At each indicated cleric level, add the listed spells to your spells prepared. They do not count towards your limit.",
+				{
+					"type": "table",
+					"caption": "Toxin Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-xs-3 text-align-center",
+						"col-xs-9"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell ray of sickness}, {@spell detect poison and disease}"
+						],
+						[
+							"3rd",
+							"{@spell malice of arachia}, {@spell protection from poison}"
+						],
+						[
+							"5th",
+							"{@spell blackened heart}, {@spell stinking cloud}"
+						],
+						[
+							"7th",
+							"{@spell confusion}, {@spell serpentine ward}"
+						],
+						[
+							"9th",
+							"{@spell cloudkill}, {@spell perfect toxin}"
+						]
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Bonus Proficiency",
+					"entries": [
+						"At 1st level, you gain proficiency with heavy armor, martial weapons, and poisoner's kits."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Concoctive Acolyte",
+					"entries": [
+						"Your divinely inspired knowledge of venoms and intoxicants allows you to craft familiar concoctions with divinely inspired recipes. Starting at first level, you may ignore the specific material components required to craft toxins such as Wyvern Venom and Purple Worm poison; instead your devotion to your god allows you to enchant more mundane materials with those same effects. Your prayers also enhance the potency of your poisons—you may use your Cleric spell save DC instead of the listed DC for poisons that you have crafted."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Creeping Death",
+					"entries": [
+						"Starting at 1st level, your divine venoms flare in response to your faith. Whenever you hit a poisoned creature with a melee attack, you deal additional poison damage equal to your cleric level."
+					]
+				}
+			]
+		}],
+		[{
+			"entries": [{
+				"type": "entries",
+				"name": "Channel Divinity: Fangs of Steel",
+				"entries": [
+					"At 2nd level, you may use a bonus action to coat a weapon you're holding with the ichor of your god with a use of your Channel Divinity. For the next minute or until you are incapacitated, the target of successful melee attacks you make with that weapon must make a Constitution saving throw against your spell save DC or be poisoned for the next minute. The creature repeats the saving throw at the end of each of its turns, ending the poison on itself and becoming immune to Fangs of Steel for the next 24 hours on a success.",
+					"Alternatively, you may use this feature to deal an extra 1d8 acid damage with attacks you make with that melee weapon. This effect ends after one minute or until you are incapacitated."
+				]
+			}]
+		}],
+		[{
+			"entries": [{
+				"type": "entries",
+				"name": "Fulminated Vitality",
+				"entries": [
+					"Starting at 6th level, serving as a conduit for your deity's poisons has partially inured you to the effects of all totxins. You gain advantage on saving throws against the poisoned condition, and have resistance to poison damage."
+				]
+			}]
+		}],
+		[{
+			"entries": [{
+				"type": "entries",
+				"name": "Channl Divinity: Noxious Anointment",
+				"entries": [
+					"At 6th level, you can use a bonus action and one use of your chanlle divinity to weaken the innate resistances of your foes by bringing them directly to the noisome attentions of your god. All hostile creatures within 30 feet of you lose any resistances to poison damage and cannot benefit from any effect that would provide advantage on saving throws against being poisoned. Immunities to poison damage and the poisoned condition are unchanged."
+				]
+			}]
+		}],
+		[{
+			"entries": [{
+				"type": "entries",
+				"name": "Divine Strike",
+				"entries": [
+					"At 8th level, you gain the ability to infuse your weapon strikes with poison. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal 1d8 poison damage to the target. When you reach 14th level, the extra damage increases to 2d8."
+				]
+			}]
+		}],
+		[{
+			"entries": [{
+				"type": "entries",
+				"name": "Font of Miasma",
+				"entries": [
+					"At 17th level, your deity's power has imbued you with toxicity to such a degree that you cannot possibly be harmed by external chemicals. You gain immunity to poison damage and cannot be poisoned.",
+					"You are also a powerful source of fetid material.  As an action, you may expel a blast of noxious vapor which forms a thin cloud in a 30-foot radius around you. All hostile creatures within the cloud suffer disadvantage on saving throws against any spells or effects that inflict poison damage, acid damage, or the poisoned condition.",
+					"This effect lasts for one minute, or until you dismiss it as an action."
+				]
+			}]
+		}]
+	],
+	"source": "https://www.gmbinder.com/documents/print/-LIrG2IG2WFD2OkK2XVR",
+	"shortName": "Toxin"
+}
